@@ -108,11 +108,11 @@ MYLAYERS  =  [
 
     ],
     [  #LAYER 5  AKA 2: MISCELLANEOUS                                                                                                             
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO, KC.NO,   KC.NO ],
-         [ TRN,    KC.F1,    KC.F2,    KC.F3,    KC.F4,   KC.F5,    KC.F6,    KC.F7,   KC.F8,  KC.F9, KC.F10,  KC.F11],
-         [ TRN,    KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.LEFT, KC.DOWN,KC.UP, KC.RIGHT,KC.F12],
-         [ TRN,    KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO, KC.NO,   KC.NO ],
-         [ KC.NO,  KC.NO,    KC.NO,    TRN,      KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO, KC.NO,   KC.NO ],
+         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO,   KC.NO,   KC.NO ],
+         [ TRN,    KC.F1,    KC.F2,    KC.F3,    KC.F4,   KC.F5,    KC.F6,    KC.F7,   KC.F8,  KC.F9,   KC.F10,  KC.F11],
+         [ TRN,    KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.LEFT,  KC.DOWN, KC.UP,  KC.RIGHT,KC.NO,   KC.F12],
+         [ TRN,    KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO,   KC.NO,   KC.NO ],
+         [ KC.NO,  KC.NO,    KC.NO,    TRN,      KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NO,  KC.NO,   KC.NO,   KC.NO ],
     ],
 ]
 
