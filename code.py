@@ -71,26 +71,53 @@ MYLAYERS  =  [
     [  #LAYER 0 : BASE                                                                                                                
          [ KC.ESCAPE,  KC.N1,    KC.N2,    KC.N3,    KC.N4,   KC.N5,    KC.N6,    KC.N7,   KC.N8,   KC.N9,  KC.N0,    KC.BSPACE ],
          [ KC.TAB,     KC.Q,     KC.W,     KC.E,     KC.R,    KC.T,     KC.Y,     KC.U,    KC.I,    KC.O,   KC.P,     KC.BSLASH ],
-         [ CAPSLOCK ,KC.A,     KC.S,     KC.D,     KC.F,    KC.G,     KC.H,     KC.J,    KC.K,    KC.L,   KC.SCLN,  KC.ENTER  ],
-         [ KC.LSHIFT,  KC.Z,     KC.X,     KC.C,     KC.V,    KC.B,     KC.N,     KC.M,    KC.COMMA,KC.DOT, KC.SLASH, KC.RSHIFT ],
-         [ KC.LCTRL,   KC.LALT,  KC.LGUI,  SLEEP,     LOWER,    KC.SPACE, KC.SPACE, RAISE, KC.LEFT, KC.DOWN,KC.UP,    KC.RIGHT ],
+         [ KC.LSHIFT,  KC.A,     KC.S,     KC.D,     KC.F,    KC.G,     KC.H,     KC.J,    KC.K,    KC.L,   KC.SCLN,  KC.ENTER  ],
+         [ KC.LCTRL,   KC.Z,     KC.X,     KC.C,     KC.V,    KC.B,     KC.N,     KC.M,    KC.COMMA,KC.DOT, KC.SLASH, KC.RSHIFT ],
+         [ SLEEP,      KC.NO,    KC.LALT,  KC.LGUI,  LOWER,   KC.SPACE, KC.SPACE, RAISE ,  KC.LEFT, KC.DOWN,KC.UP,    KC.RIGHT ],
+    ],
+    
+     [  #LAYER 2 : NUMBERS                                                                                                                
+         [ KC.ESCAPE,  KC.NO,     KC.NO,    KC.NO,     KC.NO,      KC.NO,         KC.NO,          KC.NO,          KC.NO,          KC.NO,          KC.NO,      KC.BSPACE],
+         [ KC.EXCLAIM, KC.AT,     KC.HASH,  KC.DOLLAR, KC.PERCENT, KC.CIRCUMFLEX, KC.AMPERSAND,   KC.ASTERISK,    KC.LEFT_PAREN,  KC.RIGHT_PAREN, KC.NO,       KC.NO ],
+         [ KC.LSHIFT,  KC.KP_5,   KC.KP_4,  KC.KP_3,   KC.KP_2,    KC.KP_1,       KC.KP_PLUS,     KC.LCBR,        KC.RCBR,        KC.KP_EQUAL,    KC.GESC	,  KC.KP_ENTER ],
+         [ KC.LCTRL,   KC.KP_6,   KC.KP_7,  KC.KP_8,   KC.KP_9,    KC.KP_0,       KC.KP_MINUS,    KC.LBRACKET     KC.RBRACKET,    KC.UNDERSCORE,  KC.TILDE,    KC.RSHIFT],
+         [ KC.NO,      KC.NO,     KC.NO,    KC.LGUI,   LOWER,      KC.SPACE       KC.SPACE,       RAISE,          KC.NO,          KC.NO,          KC.NO,       KC.NO ],
     ],
     [  #LAYER 2 : FUNCTIONS
          [ KC.F1,KC.F2,KC.F3,KC.F4,KC.F5,KC.F6,KC.F7,KC.F8,KC.F9,KC.F10,KC.F11,KC.F12 ],
-         [ KC.GRAVE, TRN, TRN, TRN, KC.RESET, TRN, TRN, TRN, KC.PAUSE, KC.N1, KC.N2, KC.SCROLLLOCK ],
+         [ KC.GRAVE,    TRN, TRN, TRN, KC.RESET, TRN, TRN, TRN, KC.PAUSE, KC.N1, KC.N2, KC.SCROLLLOCK ],
          [ KC.RGB_HUD,  KC.RGB_HUI,  KC.RGB_AND, KC.RGB_ANI, TRN, TRN, TRN, TRN, KC.MINUS , KC.EQUAL,  KC.QUOTE, TRN ],
          [ KC.RGB_SAD,  KC.RGB_SAI,  TRN,  KC.RGB_MODE_PLAIN, KC.RGB_MODE_KNIGHT, TRN, TRN, TRN,  KC.LBRACKET, KC.RBRACKET, TRN, KC.RSHIFT ],
          [ KC.RGB_VAD,  KC.RGB_VAI,  TRN,  KC.RGB_MODE_BREATHE_RAINBOW, KC.RGB_MODE_PLAIN, TRN, TRN, TRN, TRN, TRN, TRN, TRN],
     ],
-     [  #LAYER 2 : NUMBERS                                                                                                                
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NUMLOCK, KC.KP_EQUAL,  KC.KP_SLASH,  KC.KP_ASTERISK],
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_7,       KC.KP_8,      KC.KP_9,  KC.KP_MINUS ],
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_4,       KC.KP_5,      KC.KP_6,  KC.KP_PLUS ],
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_1,       KC.KP_2,      KC.KP_3,  KC.KP_ENTER],
-         [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_0,   KC.NO,  KC.KP_DOT,  KC.NO ],
-    ],
     # ADD HERE
 ]
+
+
+# MYLAYERS  =  [
+#     [  #LAYER 0 : BASE                                                                                                                
+#          [ KC.ESCAPE,  KC.N1,    KC.N2,    KC.N3,    KC.N4,   KC.N5,    KC.N6,    KC.N7,   KC.N8,   KC.N9,  KC.N0,    KC.BSPACE ],
+#          [ KC.TAB,     KC.Q,     KC.W,     KC.E,     KC.R,    KC.T,     KC.Y,     KC.U,    KC.I,    KC.O,   KC.P,     KC.BSLASH ],
+#          [ CAPSLOCK ,  KC.A,     KC.S,     KC.D,     KC.F,    KC.G,     KC.H,     KC.J,    KC.K,    KC.L,   KC.SCLN,  KC.ENTER  ],
+#          [ KC.LSHIFT,  KC.Z,     KC.X,     KC.C,     KC.V,    KC.B,     KC.N,     KC.M,    KC.COMMA,KC.DOT, KC.SLASH, KC.RSHIFT ],
+#          [ KC.LCTRL,   KC.LALT,  KC.LGUI,  SLEEP,   LOWER,    KC.SPACE, KC.SPACE, RAISE , KC.LEFT, KC.DOWN,KC.UP,    KC.RIGHT ],
+#     ],
+#     [  #LAYER 2 : FUNCTIONS
+#          [ KC.F1,KC.F2,KC.F3,KC.F4,KC.F5,KC.F6,KC.F7,KC.F8,KC.F9,KC.F10,KC.F11,KC.F12 ],
+#          [ KC.GRAVE, TRN, TRN, TRN, KC.RESET, TRN, TRN, TRN, KC.PAUSE, KC.N1, KC.N2, KC.SCROLLLOCK ],
+#          [ KC.RGB_HUD,  KC.RGB_HUI,  KC.RGB_AND, KC.RGB_ANI, TRN, TRN, TRN, TRN, KC.MINUS , KC.EQUAL,  KC.QUOTE, TRN ],
+#          [ KC.RGB_SAD,  KC.RGB_SAI,  TRN,  KC.RGB_MODE_PLAIN, KC.RGB_MODE_KNIGHT, TRN, TRN, TRN,  KC.LBRACKET, KC.RBRACKET, TRN, KC.RSHIFT ],
+#          [ KC.RGB_VAD,  KC.RGB_VAI,  TRN,  KC.RGB_MODE_BREATHE_RAINBOW, KC.RGB_MODE_PLAIN, TRN, TRN, TRN, TRN, TRN, TRN, TRN],
+#     ],
+#      [  #LAYER 2 : NUMBERS                                                                                                                
+#          [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.NUMLOCK, KC.KP_EQUAL,  KC.KP_SLASH,  KC.KP_ASTERISK],
+#          [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_7,       KC.KP_8,      KC.KP_9,  KC.KP_MINUS ],
+#          [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_4,       KC.KP_5,      KC.KP_6,  KC.KP_PLUS ],
+#          [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_1,       KC.KP_2,      KC.KP_3,  KC.KP_ENTER],
+#          [ KC.NO,  KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO,    KC.NO,    KC.NO,   KC.KP_0,   KC.NO,  KC.KP_DOT,  KC.NO ],
+#     ],
+#     # ADD HERE
+# ]
 
 #THIS IS ONLY TO BUILD THE KEYMAP SINCE THE COLS ARE OFF LOOK AT THE TODO
 def buildKeymap (LYS):
